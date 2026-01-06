@@ -20,26 +20,31 @@
     The same classnames for different purposes may cause various unpredictable issues with player actions.
     Or not, just don't try!
 */
-FOB_typename = "Land_Cargo_HQ_V1_F";                                    // This is the main FOB HQ building.
-FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This is the FOB as a container.
-FOB_truck_typename = "B_Truck_01_box_F";                                // This is the FOB as a vehicle.
-Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
-Respawn_truck_typename = "B_Truck_01_medical_F";                        // This is the mobile respawn (and medical) truck.
-huron_typename = "B_Heli_Transport_03_unarmed_F";                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
-crewman_classname = "B_crew_F";                                         // This defines the crew for vehicles.
-pilot_classname = "B_Helipilot_F";                                      // This defines the pilot for helicopters.
-KP_liberation_little_bird_classname = "B_Heli_Light_01_F";              // These are the little birds which spawn on the Freedom or at Chimera base.
-KP_liberation_boat_classname = "B_Boat_Transport_01_F";                 // These are the boats which spawn at the stern of the Freedom.
-KP_liberation_truck_classname = "B_Truck_01_transport_F";               // These are the trucks which are used in the logistic convoy system.
-KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";     // A small storage area for resources.
-KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";     // A large storage area for resources.
-KP_liberation_recycle_building = "Land_RepairDepot_01_tan_F";           // The building defined to unlock FOB recycling functionality.
+FOB_typename = "land_3as_Orto_Command_Base";                                    // This is the main FOB HQ building.
+FOB_box_typename = "SFA_Shipping_Crate4";                            // This is the FOB as a container.
+FOB_truck_typename = "442_argon_device";                                // This is the FOB as a vehicle.
+Arsenal_typename = "Aux501_Props_Static_Objects_ValmoricBox";                                   // This is the virtual arsenal as portable supply crates.
+Respawn_truck_typename = "RD501_gar_rtt";                        // This is the mobile respawn (and medical) truck.
+huron_typename = "RD501_Laat_LE_Unarmed";                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+crewman_classname = "Aux501_Units_Republic_501st_Trooper_Unit";                                         // This defines the crew for vehicles.
+pilot_classname = "Aux501_Units_Republic_501st_Aviation_Pilot_Unit";                                      // This defines the pilot for helicopters.
+KP_liberation_little_bird_classname = "RD501_Laat_LE";              // These are the little birds which spawn on the Freedom or at Chimera base.
+KP_liberation_boat_classname = "RD501_speedboat_republic_base";                 // These are the boats which spawn at the stern of the Freedom.
+KP_liberation_truck_classname = "442_argon_transport";               // These are the trucks which are used in the logistic convoy system.
+KP_liberation_small_storage_building = "ContainmentArea_02_black_F";     // A small storage area for resources.
+KP_liberation_large_storage_building = "ContainmentArea_01_black_F";     // A large storage area for resources.
+KP_liberation_recycle_building = "3AS_Repair_Facility";           // The building defined to unlock FOB recycling functionality.
 KP_liberation_air_vehicle_building = "B_Radar_System_01_F";             // The building defined to unlock FOB air vehicle functionality.
-KP_liberation_heli_slot_building = "Land_HelipadSquare_F";              // The helipad used to increase the GLOBAL rotary-wing cap.
-KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";             // The hangar used to increase the GLOBAL fixed-wing cap.
+KP_liberation_heli_slot_building = "3AS_Pad_GAR_Prop";              // The helipad used to increase the GLOBAL rotary-wing cap.
+KP_liberation_plane_slot_building = "SFA_Landing_Pad";             // The hangar used to increase the GLOBAL fixed-wing cap.
 KP_liberation_supply_crate = "CargoNet_01_box_F";                       // This defines the supply crates, as in resources.
 KP_liberation_ammo_crate = "B_CargoNet_01_ammo_F";                      // This defines the ammunition crates.
 KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This defines the fuel crates.
+/*   ---Ideal Props, But Untested---
+KP_liberation_supply_crate = "3AS_Barrel_prop";                       // This defines the supply crates, as in resources.
+KP_liberation_ammo_crate = "3AS_Small_Box_6_Prop";                      // This defines the ammunition crates.
+KP_liberation_fuel_crate = "3AS_Small_Fuel_Barrel";                     // This defines the fuel crates.
+*/
 
 /*
     --- Friendly classnames ---
